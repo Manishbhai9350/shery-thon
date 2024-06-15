@@ -64,6 +64,7 @@ body {
   overflow-x: hidden;
   position: relative;
   transition: all .3s ease-in-out;
+  z-index: 10000000;
 }
 
 body[theme='cream']{
@@ -277,7 +278,7 @@ a i {
   /* background: yellow; */
 }
 
-.landing .changin-text {
+.landing .changing-text {
   position: absolute;
   width: 400px;
   height: 10px;
@@ -289,8 +290,8 @@ a i {
   align-items: center;
 }
 
-.changin-text P ,
-.changin-text span {
+.changing-text P ,
+.changing-text span {
   line-height: 10px;
   font-size: 10px;
   font-family: strech;
@@ -1213,7 +1214,7 @@ section p {
   .landing h3 {
     font-size: 1rem!important;
   }
-  .changin-text {
+  .changing-text {
     display: none!important;
   }
   .landing .text p {
@@ -1321,7 +1322,7 @@ section p {
   .landing h3 {
     font-size: 1rem!important;
   }
-  .changin-text {
+  .changing-text {
     display: none!important;
   }
   .landing .text {
@@ -1514,7 +1515,7 @@ section p {
   .landing h1 {
     font-size:4rem;
   }
-  .changin-text {
+  .changing-text {
     display: none!important;
   }
   .landing .text p {
@@ -1619,3 +1620,8 @@ nav {
   opacity: 0;
   transform: translateY(-100%);
 }
+/* 
+.text .changing-text {
+  opacity: 0;
+  transform: translateX(100px);
+} */
